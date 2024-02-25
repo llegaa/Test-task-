@@ -1,8 +1,35 @@
-# React + Vite
+## Проектное описание
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Запуск проекта
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Чтобы запустить проект, выполните следующие команды:
+
+```bash
+# Установите зависимости
+npm install
+
+# Запуск проекта в режиме разработки
+npm run dev
+
+# Сборка проекта для продакшена
+npm run build
+
+# Запуск проекта для проверки перед сборкой
+npm run serve
+```
+
+### Роутинг
+
+- `/list` - страница с таблицей данными о людях
+- `/citizen/:id` - страница с информацией и редактированием данных о человеке по его `id`
+- `/analytics/dashboard` - дашборд аналитики
+- `/analytics/country` - график аналитики по странам
+- `/analytics/gender` - график аналитики по полу
+- `/analytics/age` - график аналитики по возрасту
+
+### Обработка ошибок
+
+При попытке перейти по неизвестному URL вы будете перенаправлены на страницу с ошибкой.
+
+
