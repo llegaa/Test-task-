@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.link {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.active {
+    color: var(--green);
+    border-bottom: 2px solid var(--separator-color);
+}
+
+.link:hover {
+    color: var(--green);
+}
+

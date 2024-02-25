@@ -1,0 +1,14 @@
+:root {
+    --backgrount_gray: #fafafa;
+    --text-secondary-color: #5B5B5E;
+    --white-color: #FFFFFF;
+    --text-color: #000000;
+    --separator-color: #D4D6E0;
+    --green: #418123;
+    --light_green: #e7fed9;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.left-side {
+    flex: 0 0 300px;
+    overflow: hidden;
+}
+
+.right-side {
+    flex: 1;
+    overflow-y: auto;
+}

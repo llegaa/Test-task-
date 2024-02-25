@@ -1,0 +1,30 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+.container {
+    padding: 15px;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    border: 1px solid var(--separator-color);
+    overflow-x: auto;
+}
+
+.table td, th {
+    text-align: left;
+}
+
+.table th, .table td {
+    border-bottom: 1px solid var(--separator-color);
+    padding: 8px;
+}
+
+.table tbody tr:hover {
+    background-color: var(--light_green);
+}
+
+.table tbody tr:last-child td {
+    border-bottom: none;
+}

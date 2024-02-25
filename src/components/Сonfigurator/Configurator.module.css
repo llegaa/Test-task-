@@ -1,0 +1,32 @@
+.inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-part {
+    display: flex;
+    align-items: center;
+}
+
+.sets {
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sets img {
+    height: 30px;
+    transition: transform 1s ease;
+}
+
+.activeImg {
+    transform: rotate(180deg);
+}

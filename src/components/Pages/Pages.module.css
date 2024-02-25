@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.page {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.active {
+    color: var(--green);
+}
+
+.reverse {
+    transform: rotate(180deg);
+}
+
+.image {
+    height: 20px;
+    cursor: pointer;
+}

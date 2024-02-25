@@ -1,0 +1,15 @@
+.container {
+    position: absolute;
+    right: 45px;
+    top: 110px;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.checkbox {
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
